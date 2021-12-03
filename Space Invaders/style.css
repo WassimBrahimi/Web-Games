@@ -1,0 +1,96 @@
+body{
+    margin:0% ;
+    background-image: url('../BCG.jpeg');
+}
+#nav{
+    background-color: rgb(62, 24, 54);;
+    padding: 5px;
+    height: 60px;
+    width: 100%;
+    margin-top: -1%;
+    margin-left: -1%;}
+.button {
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+.button1 {
+        background-color: rgba(255, 255, 255, 0); 
+        color: rgb(255, 255, 255); 
+        font-size: 20px;
+        padding: 15px 13px;
+      }
+.button2 {
+        background-color: rgba(255, 255, 255, 0); 
+        color: rgb(180, 180, 180); 
+        font-size: 16px;
+        padding: 15px 11px;
+      }
+.button2:hover{
+        color:rgb(236, 235, 235);  ;
+      }
+.grid {
+    background-image: url('BC.png');
+    margin-left: auto;
+    margin-right: auto;
+    zoom: 1.5;
+	width: 300px;
+	height: 300px;
+	border: outset darkgrey 5px;
+    border-radius: 3px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid div {
+	width: 20px;
+	height: 20px;
+}
+
+.invader {
+	background-image: url('ennemy.png');
+	
+}
+
+.shooter {
+    background-image: url('ship.png');
+	
+}
+
+.laser {
+	background-color: orange;
+    border-radius: 10px;
+}
+
+.boom {
+	background-color: red;
+}
+.start {
+  margin-left: 55%;
+  font-weight: bolder;
+  padding: 9px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 13px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+  border-radius: 9px;
+}
+.start:hover {
+  background-color:rgb(62, 24, 54);}
+.results{
+  margin-left:35%;
+  font-size: 26px; 
+  margin-top: -24px; 
+  font-weight: bolder;
+  color: white; 
+}

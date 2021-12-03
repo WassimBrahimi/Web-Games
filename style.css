@@ -1,0 +1,27 @@
+body{
+    background-image: url("BCG.jpeg");
+}
+h1 {
+    text-shadow:3px 3px thistle;
+    padding: 1%;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  .start {
+    margin-left: 30%;
+    font-weight: bolder;
+    padding: 9px 18px;
+    text-align: center;
+    width: 40%;
+    height: 50px;
+    font-size: 26px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: thistle;
+    color: purple;
+    border: 3px outset purple;
+    border-radius: 20px;}
+
+.start:hover {box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); }}

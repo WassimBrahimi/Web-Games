@@ -1,0 +1,86 @@
+body{
+    background-image: url('../BCG.jpeg');
+}
+#nav{
+    background-color: rgb(62, 24, 54);;
+    height: 60px;
+    width: 101.5%;
+    margin-top: -1%;
+    margin-left: -1%;}
+.button {
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+.button1 {
+        background-color: rgba(255, 255, 255, 0); 
+        color: rgb(255, 255, 255); 
+        font-size: 20px;
+        padding: 15px 13px;
+      }
+.button2 {
+        background-color: rgba(255, 255, 255, 0); 
+        color: rgb(180, 180, 180); 
+        font-size: 16px;
+        padding: 15px 11px;
+      }
+.button2:hover{
+        color:rgb(236, 235, 235);  ;
+      }
+.grid {
+    background-color: green;
+    border: 3px darkgreen ;
+    border-radius: 3px;
+    border-style: outset;
+    margin-left: auto;
+    margin-right: auto;
+    zoom: 2;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+  }
+  
+  .grid div {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .snake {
+    background-color: blue;
+    border-radius: 7px;
+  }
+  
+  .apple {
+    background-color: red;
+    border-radius: 10px;
+  }
+  .start {
+    margin-left: 50%;
+    font-weight: bolder;
+    padding: 9px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    border-radius: 9px;
+  }
+  .start:hover {background-color:rgb(62, 24, 54);}
+.score{
+    margin-left:35%;
+    font-size: 26px; 
+    margin-top: -24px; 
+    font-weight: bolder;
+    color: white; 
+}

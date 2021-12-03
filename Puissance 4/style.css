@@ -1,0 +1,67 @@
+#nav{
+  background-color: rgb(62, 24, 54);;
+  height: 60px;
+  width: 102%;
+  margin-top: -1%;
+  margin-left: -1%;
+}
+h3{
+  text-shadow: 2px 2px #ff0000;
+  font-size: 200%;
+  margin-left: 45%;
+}
+.button {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {
+  background-color: rgba(255, 255, 255, 0); 
+  color: rgb(255, 255, 255); 
+  font-size: 20px;
+  padding: 15px 13px;
+}
+.button2 {
+  background-color: rgba(255, 255, 255, 0); 
+  color: rgb(180, 180, 180); 
+  font-size: 16px;
+  padding: 15px 11px;
+}
+.button2:hover{
+  color:rgb(236, 235, 235);  ;
+}
+body{
+    background-image: url("../BCG.jpeg");
+    color: white;
+}
+.grid {
+    zoom: 3;
+    background: linear-gradient(70deg, rgb(10, 50, 221),rgb(113, 115, 211));
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px outset rgb(7, 31, 136);
+    border-radius: 5px;
+    height: 120px;
+    width: 140px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .grid div {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .player-one {
+    background-color: rgb(252, 13, 27);
+    border-radius: 10px;
+  }
+  
+  .player-two {
+    background-color: rgb(253, 175, 42);
+    border-radius: 10px;
+  }
